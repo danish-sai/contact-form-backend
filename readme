@@ -1,0 +1,63 @@
+# Node.js Contact Form Backend
+
+This is a simple Node.js + Express backend that handles a contact form and sends emails using Nodemailer and Gmail SMTP.
+
+## 🚀 Features
+
+- 📩 Contact form using plain HTML
+- 📨 Sends submitted data to your Gmail
+- 🌐 Built with Express and Nodemailer
+- 🔐 Uses `.env` for email credentials
+
+## 🛠 Technologies Used
+
+- Node.js
+- Express
+- Nodemailer
+- Gmail SMTP
+- dotenv
+
+## 📁 Project Structure
+
+project/
+│
+├── app.js # Main backend file
+├── .env # Email credentials (excluded from GitHub)
+├── .gitignore
+└── README.md
+
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/contact-form-backend.git
+   cd contact-form-backend
+Install dependencies
+
+npm install
+Create a .env file
+
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-16-digit-app-password
+Run the app
+
+node app.js
+Visit in browser
+
+
+http://localhost:3000
+📝 License
+MIT License
+
+
+
+You can edit this to match your project name and GitHub repo link.
+
+---
+
+## ✅ Step 2: Update `.gitignore`
+
+If you haven't already, make sure `.env` is ignored:
+
+```txt
+node_modules
+.env
