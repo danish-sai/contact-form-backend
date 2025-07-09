@@ -41,7 +41,8 @@ EMAIL_PASS=your-16-digit-app-password
 Run the app
 
 node app.js
-Visit in browser
+
+use the postman to add the data 
 
 
 http://localhost:3000
